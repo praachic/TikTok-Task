@@ -134,6 +134,12 @@ Krippendorff’s Alpha between Human and AI:
 Our original prompt was much less specific, merely repeating the concepts we had previously defined and asking the LLM to evaluate based on these criteria. This strategy resulted in relatively low scores (in the .4-.5 range), so we edited the prompt to better capture our definitions. We added significantly more detailed definitions/explanations of the concepts that spanned numerous ways to express an opinion (such as a list of keywords, "such as weaponized incompetence"). We also clarified that the two concepts were independent of one another and better explained how to code the comments. Lastly, we gave examples of comments that were coded to all different combinations. This significantly improved our reliability scores.  
 
 ### Graphs
-![]('AI_pie.png')
+![](AI_pie.png)
 ![](AIvsCoderPie.png)
 
+### Takeaway
+After observing the coded comments, it seems like the commenters tend to lean a bit more toward the wife’s POV where the mental load and exhaustion aren't sustainable. Surprisingly, the largest chunk of comments, at almost 40% ended up in the neutral (0,0) category, but the ones that did express an opinion tended toward (1,0) rather than (0,1). At the same time, we saw a decent number of (1,1) comments, saying that about 10% of the people saw this as a complex or two-sided problem and believed that both parties were at least somewhat at fault.
+
+When we compared the AI’s codes to ours, this pattern stayed pretty consistent. All three of us coded more agreement with the wife’s perspective than the husband’s, and the distribution of the four code categories looked similar across each rater. With the exception of (0,0)s, the AI coder tended to stay in between us in terms of the number of comments it coded in each category, possibly suggesting more fairness overall. The reliability scores (Krippendorff’s α around 0.74 for Concept 1 and 0.72 for Concept 2) show that the AI did a pretty good job matching our assessments. The jump in reliability after we refined the prompt also tells us that the model really benefits from more detailed, example-driven definitions.
+
+Overall, the results depict that viewers of this reel tend to agree with the wife's opinion better. Comparing the AI coded comments, which show about 33% of the comments agreeing (only) with the wife while only 18% agreed with the usband, we see that out of the 61% of comments wit
