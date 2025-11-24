@@ -134,8 +134,8 @@ Krippendorff’s Alpha between Human and AI:
 Our original prompt was much less specific, merely repeating the concepts we had previously defined and asking the LLM to evaluate based on these criteria. This strategy resulted in relatively low scores (in the .4-.5 range), so we edited the prompt to better capture our definitions. We added significantly more detailed definitions/explanations of the concepts that spanned numerous ways to express an opinion (such as a list of keywords, "such as weaponized incompetence"). We also clarified that the two concepts were independent of one another and better explained how to code the comments. Lastly, we gave examples of comments that were coded to all different combinations. This significantly improved our reliability scores.  
 
 ### Graphs
-![](AI_pie.png)
-![](AIvsCoderPie.png)
+<img src="AI_pie.png" width="50%">
+<img src="AIvsCoderPie.png" width="50%">
 
 ### Takeaway
 After observing the coded comments, it seems like the commenters tend to lean a bit more toward the wife’s POV where the mental load and exhaustion aren't sustainable. Surprisingly, the largest chunk of comments, at almost 40% ended up in the neutral (0,0) category, but the ones that did express an opinion tended toward (1,0) rather than (0,1). At the same time, we saw a decent number of (1,1) comments, saying that about 10% of the people saw this as a complex or two-sided problem and believed that both parties were at least somewhat at fault.
